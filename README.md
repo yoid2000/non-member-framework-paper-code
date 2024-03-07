@@ -10,6 +10,24 @@ measures".
 
 `results.json` contains the data resulting from running `diffTest.py`.
 
+`resultsRecall.json` contains the data resulting from running `diffRecall.py`.
+
 ### Code
 
-`diffTest.py` does the actual analysis measures (for both non-member framework and prior framework).
+`diffTest.py` does the actual analysis measures (for both non-member framework and prior framework). It produces `results.json`.
+
+`diffRecall.py` generates the results for generating different recall values by changing the prediction threshold. For categorical attributes only. It produces `resultsRecall.json`.
+
+`displayPerValueResults.py` reads in `results.json` and generates the following plots. Those with accompanying figure number are in the paper.
+* `allVsPiiAcc.png` (Figure 4)
+* `nonVsPriorAcc.png` (Figure 8)
+* `replication.png` (Figure 6)
+* `nonVsPriorAcc-nolabel.png `
+* `allVsPiiAccNoLab.png`
+* `perValue.png`
+* `replication-nolabel.png`
+
+
+`displayRecallResults.py` reads in `resultsRecall.json` and generates the following plots:
+* `prec-recall.png` (Figure 5)
+* `prec-recall-nolegend.png`

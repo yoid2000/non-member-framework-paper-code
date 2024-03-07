@@ -1,0 +1,260 @@
+[
+    {
+        "target": "Attrition_Flag",
+        "recall": 1.0,
+        "numPredicts": 3039,
+        "prec": 0.8956893715037841
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.8950312602829879,
+        "numPredicts": 2720,
+        "prec": 0.9356617647058824
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.7989470220467259,
+        "numPredicts": 2428,
+        "prec": 0.9538714991762768
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.6873971701217506,
+        "numPredicts": 2089,
+        "prec": 0.9684059358544759
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.5695952615992103,
+        "numPredicts": 1731,
+        "prec": 0.9722703639514731
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.44027640671273444,
+        "numPredicts": 1338,
+        "prec": 0.9813153961136024
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.3260941099045739,
+        "numPredicts": 991,
+        "prec": 0.9828456104944501
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.2194800921355709,
+        "numPredicts": 667,
+        "prec": 0.9835082458770614
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.13886146758802237,
+        "numPredicts": 422,
+        "prec": 0.985781990521327
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.07963145771635406,
+        "numPredicts": 242,
+        "prec": 0.9958677685950413
+    },
+    {
+        "target": "Attrition_Flag",
+        "recall": 0.04014478446857519,
+        "numPredicts": 122,
+        "prec": 1.0
+    },
+    {
+        "target": "Gender",
+        "recall": 1.0,
+        "numPredicts": 3039,
+        "prec": 0.8986508719973676
+    },
+    {
+        "target": "Gender",
+        "recall": 0.8061862454754853,
+        "numPredicts": 2450,
+        "prec": 0.9551020408163265
+    },
+    {
+        "target": "Gender",
+        "recall": 0.7680157946692991,
+        "numPredicts": 2334,
+        "prec": 0.9601542416452442
+    },
+    {
+        "target": "Gender",
+        "recall": 0.6873971701217506,
+        "numPredicts": 2089,
+        "prec": 0.9601542416452442
+    },
+    {
+        "target": "Gender",
+        "recall": 0.37249095097071405,
+        "numPredicts": 1132,
+        "prec": 0.9832155477031802
+    },
+    {
+        "target": "Gender",
+        "recall": 0.10463968410661402,
+        "numPredicts": 318,
+        "prec": 1.0
+    },
+    {
+        "target": "Education_Level",
+        "recall": 1.0,
+        "numPredicts": 3039,
+        "prec": 0.30832510694307336
+    },
+    {
+        "target": "Marital_Status",
+        "recall": 1.0,
+        "numPredicts": 3039,
+        "prec": 0.4642974662717999
+    },
+    {
+        "target": "Marital_Status",
+        "recall": 0.20072392234287595,
+        "numPredicts": 610,
+        "prec": 0.6262295081967213
+    },
+    {
+        "target": "Marital_Status",
+        "recall": 0.014478446857518921,
+        "numPredicts": 44,
+        "prec": 0.8409090909090909
+    },
+    {
+        "target": "Marital_Status",
+        "recall": 0.0029615004935834156,
+        "numPredicts": 9,
+        "prec": 1.0
+    },
+    {
+        "target": "Income_Category",
+        "recall": 1.0,
+        "numPredicts": 3039,
+        "prec": 0.500164527805199
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.5709114840408029,
+        "numPredicts": 1735,
+        "prec": 0.6357348703170029
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.43665679499835475,
+        "numPredicts": 1327,
+        "prec": 0.6774679728711379
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.38795656465942746,
+        "numPredicts": 1179,
+        "prec": 0.7005937234944869
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.3234616650213886,
+        "numPredicts": 983,
+        "prec": 0.7344862665310274
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.25765054294175715,
+        "numPredicts": 783,
+        "prec": 0.7573435504469987
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.1332675222112537,
+        "numPredicts": 405,
+        "prec": 0.7573435504469987
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.055281342546890426,
+        "numPredicts": 168,
+        "prec": 0.7916666666666666
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.02171767028627838,
+        "numPredicts": 66,
+        "prec": 0.8181818181818182
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.007239223428759461,
+        "numPredicts": 22,
+        "prec": 0.8181818181818182
+    },
+    {
+        "target": "Income_Category",
+        "recall": 0.0036196117143797303,
+        "numPredicts": 11,
+        "prec": 0.8181818181818182
+    },
+    {
+        "target": "Card_Category",
+        "recall": 1.0,
+        "numPredicts": 3039,
+        "prec": 0.9341888779203685
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.9355051003619612,
+        "numPredicts": 2843,
+        "prec": 0.9620119591980303
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.9190523198420533,
+        "numPredicts": 2793,
+        "prec": 0.9656283566058003
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.8914116485686081,
+        "numPredicts": 2709,
+        "prec": 0.9686231081579919
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.8647581441263573,
+        "numPredicts": 2628,
+        "prec": 0.9699391171993912
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.8331688055281342,
+        "numPredicts": 2532,
+        "prec": 0.9774881516587678
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.793024021059559,
+        "numPredicts": 2410,
+        "prec": 0.9887966804979254
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.7459690687726226,
+        "numPredicts": 2267,
+        "prec": 0.9933833259814733
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.6732477788746298,
+        "numPredicts": 2046,
+        "prec": 0.998533724340176
+    },
+    {
+        "target": "Card_Category",
+        "recall": 0.5985521553142481,
+        "numPredicts": 1819,
+        "prec": 1.0
+    }
+]
