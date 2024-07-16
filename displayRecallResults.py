@@ -3,7 +3,6 @@ import json
 import pprint
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
 import pandas as pd
 
 pp = pprint.PrettyPrinter(indent=4)
@@ -19,11 +18,13 @@ if __name__ == "__main__":
     if doLegend:
         fig = plt.figure(figsize=(3.5, 2.0))
         ax = fig.add_subplot(111)  # 111 means 1 row, 1 column, first plot
-        fileName = 'prec-recall.png'
+        fileNamePng = 'prec-recall.png'
+        fileNamePdf = 'prec-recall.pdf'
     else:
         fig = plt.figure(figsize=(4, 2.5))
         ax = fig.add_subplot(111)  # 111 means 1 row, 1 column, first plot
-        fileName = 'prec-recall-nolegend.png'
+        fileNamePng = 'prec-recall-nolegend.png'
+        fileNamePdf = 'prec-recall-nolegend.pdf'
     scatter = sns.scatterplot(data=df, x='recall', y='prec', hue='target', style='target', legend=doLegend)
     if doLegend:
         #plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0)
@@ -34,6 +35,7 @@ if __name__ == "__main__":
     ax.set_ylabel('Precision', fontsize=8)
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig(fileName)
+    plt.savefig(fileNamePng)
+    plt.savefig(fileNamePdf)
     plt.close()
 

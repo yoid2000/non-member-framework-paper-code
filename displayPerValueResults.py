@@ -3,14 +3,8 @@ import json
 import pprint
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
-import matplotlib.lines as mlines
-import matplotlib.patches as mpatches
 import pandas as pd
 import numpy as np
-import math
-import os
-from diffTools import doClip
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -98,6 +92,7 @@ ax[1].yaxis.grid(True)
 ax[0].set(xticklabels=[], xlabel='Categorical attributes (ordered by Non-member precision)', ylabel='Precision')
 ax[1].set(xticklabels=[], xlabel='Continuous attributes (ordered by Non-member precision)', ylabel='Precision (prediction within 5%)')
 plt.savefig("nonVsPriorAcc-nolabel.png")
+plt.savefig("nonVsPriorAcc-nolabel.pdf")
 plt.close()
 
 fig = plt.figure(figsize=(5, 5))
@@ -116,6 +111,7 @@ ax[0].set(xlabel = '', ylabel='Precision\n(Categorical)')
 ax[1].set(xlabel = '', ylabel='Precision\n(prediction within 5%)\n(Continuous)')
 plt.tight_layout()
 plt.savefig("nonVsPriorAcc.png")
+plt.savefig("nonVsPriorAcc.pdf")
 plt.close()
 
 dfNonCat['Known Attr'] = 'All'
@@ -135,6 +131,7 @@ ax[1].yaxis.grid(True)
 ax[0].set(xticklabels=[], xlabel='Categorical attributes (ordered by Non-member precision)', ylabel='Precision')
 ax[1].set(xticklabels=[], xlabel='Continuous attributes (ordered by Non-member precision)', ylabel='Precision (prediction within 5%)')
 plt.savefig("allVsPiiAccNoLab.png")
+plt.savefig("allVsPiiAccNoLab.pdf")
 plt.close()
 
 fig = plt.figure(figsize=(5, 5))
@@ -155,6 +152,7 @@ ax[1].set(xlabel = '', ylabel='Precision\n(prediction within 5%)\n(Continuous)')
 plt.subplots_adjust(hspace=0.4)
 plt.tight_layout()
 plt.savefig("allVsPiiAcc.png")
+plt.savefig("allVsPiiAcc.pdf")
 plt.close()
 
 dfNonCatVal = dfNonCatVal[['target','precision','recall','label']]
@@ -178,6 +176,7 @@ plt.xlabel("Recall")
 plt.ylabel("Precision")
 plt.tight_layout()
 plt.savefig("perValue.png")
+plt.savefig("perValue.pdf")
 plt.close()
 
 # Now let's do the replication graph
@@ -218,6 +217,7 @@ plt.xlabel('All attributes (ordered by 0% replication)')
 plt.ylabel('Precision')
 plt.xticks([])
 plt.savefig("replication-nolabel.png")
+plt.savefig("replication-nolabel.pdf")
 plt.close()
 
 fig, ax = plt.subplots(figsize=(5, 3))
@@ -231,4 +231,5 @@ for label in ax.get_xticklabels():
     label.set_fontsize(8)  # Set fontsize to 10
 plt.tight_layout()
 plt.savefig("replication.png")
+plt.savefig("replication.pdf")
 plt.close()
